@@ -1,0 +1,106 @@
+/*Global Styles */
+* {
+  box-sizing: border-box;
+  /*border: 1px solid red;*/
+}
+
+/* ================================= 
+  Base Element Styles
+==================================== */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+p {
+  font-size: .95em;
+}
+a {
+  text-decoration: none;
+}
+h3 {
+  text-align:  center;
+}
+h4 {
+  text-align:  center;
+}
+img {
+  padding:20px 15px 0 15px;
+  max-width: 100%;
+}
+/* ---- Navigation ---- */
+.name {
+  font-size: 2em;
+  margin: 0;
+}
+.main-nav {
+  margin-top: 5px;
+}
+.name a,
+.main-nav a {
+	text-align: center;
+  display: block;
+  font-weight: bold;
+  color: #000000;
+}
+.main-nav a {
+  background: #ffffff;
+  margin: 10px;
+  padding: 10px;
+}
+.main-nav a:hover {
+  color: #eff0ef;
+}
+
+/* ---- Layout Containers ---- */
+.container {
+  background: rgba(252, 250, 250, 0.986);
+  padding-bottom: 40px;
+}
+.main-container p{
+   padding-right: 35px;
+   padding-left: 35px;
+   padding-bottom: 5px;
+}
+footer {
+ padding-left: 15px;
+ padding-right: 15px; 
+}
+/* ---- Page Elements ---- */
+ .profile-img {
+  display: block;
+  margin: 20px auto 10px auto;
+  padding-bottom: 20px;
+  width: 80%;
+}
+.container p{
+  margin:5px 15px;
+}
+.portfolio-title {
+  padding-top:20px;
+}
+.light-font {
+  font-weight: 600;
+}
+.description {
+  text-align: center;
+}
+.contact {
+  text-align: center;
+  padding-top: 25px;
+  color:#cccccc;
+  font-size: 1em;
+}
+.contact a {
+color: #747272;
+font-weight: bold;
+}
+.footer-name {
+  float: left;
+  font-weight: bold;
+}
+.footer-top {
+  float: right;
+  font-weight: bold;
+}
+.footer-top a {
+  color: #000000;  
+}
