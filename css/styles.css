@@ -9,6 +9,7 @@
 ==================================== */
 body {
   font-family: 'Open Sans', sans-serif;
+  background: rgba(252, 250, 250, 0.986);
 }
 p {
   font-size: .95em;
@@ -30,6 +31,8 @@ img {
 .name {
   font-size: 2em;
   margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .main-nav {
   margin-top: 5px;
@@ -66,11 +69,6 @@ img {
 .footer-container {
   background: rgba(252, 250, 250, 0.986);
 }
-.main-container p{
-  padding-right: 35px;
-  padding-left: 35px;
-  padding-bottom: 5px;
-}
 footer {
   padding-left: 15px;
   padding-right: 15px; 
@@ -85,6 +83,11 @@ footer {
 .container p{
   margin:5px 15px;
 }
+.intro-text {
+ padding-left: 15px;
+ padding-right:  15px;
+ text-align: center;  
+}
 .portfolio-title {
   padding-top:20px;
 }
@@ -93,8 +96,8 @@ footer {
 }
 .description {
   text-align: center;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 18px;
+  padding-right: 18px;
 }
 .contact-title {
    padding-top: 25px;
@@ -108,8 +111,8 @@ footer {
 }
 .contact-description {
   text-align: center;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .contact a {
   color: #747272;
@@ -145,6 +148,12 @@ nav {
 .container {
   padding-bottom: 30px;
 }
+header {
+  padding-top: 30px;
+}
+.name {
+  padding-bottom: 10px;
+}
 .main-nav li{
   display: inline-block;
 }
@@ -170,11 +179,11 @@ section {
   margin:0;
 }
 .description {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 55px;
+  padding-right: 55px;
 }
 .contact-description {
-  width: 55%;
+  width: 65%;
   margin: 0 auto;
   text-align: center;
 }
@@ -190,24 +199,18 @@ section {
   float: left;
   clear: left;
   }
-.left-column img {
-  padding-right: 5px;
-  padding-left: 30px;
-}
+
 .right-column {
   float: left;
   clear: right;
 }
-.right-column img {
-  padding-left: 5px;
-  padding-right: 30px;
-}
+
 .contact-container {
   background: rgba(252, 250, 250, 0.986);
 }
 .footer-container {
   background: rgba(252, 250, 250, 0.986);
-  padding-bottom:80px;
+  padding-bottom:50px;
 }
 .footer-top a{
   display: none;
@@ -222,7 +225,6 @@ footer ul {
   float: right;
 }
 .footer-main-nav li{
-  display: inline-block;
   float: left;
   font-size: 0.8em;
   background: rgba(252, 250, 250, 0.986);
@@ -244,4 +246,91 @@ hr {
   display: table;
   clear: both;
 }
+}
+@media (min-width: 1025px) {
+  .container,
+  .banner {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .container2 {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .name {
+  float: left;
+  margin-left: 45px; 
+  padding-top: 15px;
+}
+
+
+ .main-nav {
+  float: right;
+  margin: 0;
+  padding-top: 10px;
+  margin-right: 25px;
+  
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 15px;
+}
+.profile-img {
+  float: right;
+  width: 44%;
+  margin-right: 30px;
+ margin-left: 95px;
+ margin-top: 0;
+}
+.intro-text p{
+  float: left;
+}
+.intro-text {
+  padding-top: 20px;
+  margin-left: 35px;
+  text-align: left;
+}
+section {
+  width: 33%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.right-column {
+  float: left;
+}
+
+  .left-travel {
+    float: left;
+    clear: right;
+    }
+  .left-gallery {
+    float: left;
+    clear: right;
+    }
+    .contact-description {
+      width: 50%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .description {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .footer-container {
+      padding-bottom:10px;
+    }
+    
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+}
+@media (min-width: 1270px) {
+  .description {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
